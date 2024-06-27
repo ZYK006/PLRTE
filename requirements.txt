@@ -1,0 +1,13 @@
+torch==2.3.0
+accelerate==0.30.0
+transformers==4.40.2
+peft==0.10.0
+datasets==2.19.1
+sentencepiece==0.2.0
+scipy==1.13.0
+protobuf==5.26.1
+pydantic==2.7.1
+tiktoken==0.7.0
+jieba
+rouge_chinese
+huggingface-hub==0.23.0

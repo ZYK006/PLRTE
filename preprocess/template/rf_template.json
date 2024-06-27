@@ -1,0 +1,24 @@
+{
+    "template": {
+        "0": "Extract present relationship types from input using relation list {s_schema}, format in {s_format}.",
+        "1": "Identify relationships in input based on relation list {s_schema}, and respond in {s_format}.",
+        "2": "Determine relationship types in text with relation list {s_schema}, answer in {s_format}.",
+        "3": "Pinpoint relationship types in text using relation list {s_schema}, format response as {s_format}.",
+        "4": "List relationship types from text per relation list {s_schema}, structure response in {s_format}.",
+        "5": "Analyze text, extract relationships via relation list {s_schema}, present findings in {s_format}.",
+        "6": "Parse text for relationship types listed in relation list {s_schema}, answer following {s_format}.",
+        "7": "Identify text's relationship types referencing relation list {s_schema}, use format {s_format}.",
+        "8": "Review text, determine relationships as per relation list {s_schema}, respond with {s_format}.",
+        "9": "Objective: Extract text's relationship types via relation list {s_schema}, organize in {s_format}.",
+        "10": "Analyze and extract specified relationship types from text using relation list {s_schema}, format in {s_format}.",
+        "11": "List relationship types from text per relation list {s_schema}, structure response in {s_format}.",
+        "12": "Discern text's relationship types using {s_schema}, format response as {s_format}.",
+        "13": "Detect and list relationship types in text as per relation list {s_schema}, use {s_format}.",
+        "14": "Identify relationships in input based on relation list {s_schema}, and respond in {s_format}.",
+        "15": "Extract relationship types referencing relation list {s_schema}, arrange results in {s_format}.",
+        "16": "Identify relationship types in text, using relation list {s_schema}, answer using {s_format}.",
+        "17": "Task: Extract relationship types per relation list {s_schema}, structure answer in {s_format}.",
+        "18": "Identify text's relationship types referencing relation list {s_schema}, use format {s_format}.",
+        "19": "Extract present relationship types from input using relation list {s_schema}, format in {s_format}."
+    }        
+}

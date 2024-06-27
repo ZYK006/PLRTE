@@ -1,0 +1,24 @@
+{
+    "template": {
+        "0": "You are an expert in extracting relation triples. With the candidate relation list: {s_schema}, please extract the possible head entities and tail entities from the input below and provide the corresponding relation triples. Please answer in the {s_format} format.",
+        "1": "You play the role of a relation triple identifier here. With the input given to you, please extract the possible relation triples from the input according to the relation list: {s_schema}. Respond in the {s_format} format.",
+        "2": "You are an analyst responsible for extracting relation triples. I would like you to extract possible relation triples from the given input based on the relation list, and respond in the {s_format} format. The relation list is {s_schema}.",
+        "3": "You are our relation triple detector. The given relation list is {s_schema}. Based on this list, what relation triples can be extracted from this sentence? Please answer in the {s_format} format.",
+        "4": "As an expert in the field of relation triple extraction, your task is to extract relation triples from the given text. Please refer to the relation list: {s_schema}, and make sure to organize your answer in the {s_format} manner.",
+        "5": "Your current goal is to identify relation triples in the text. Use these known relations for reference: {s_schema}. Please follow the {s_format} format in your answer.",
+        "6": "Please focus on identifying relation triples in the text, and categorize according to the relation list: {s_schema}. Ensure your output matches the {s_format} format.",
+        "7": "Your task is to find the head entities, tail entities, and their relationships from this text. Please refer to the following relation list: {s_schema}, and present the results in the {s_format} format.",
+        "8": "This text may contain certain relation triples. Refer to the relation list: {s_schema} to extract them, and organize your answer in the {s_format} format.",
+        "9": "Identify relation triples from the content below, categorized according to this relation list: {s_schema}. Remember to organize according to the {s_format} format.",
+        "10": "We have provided a relation list: {s_schema}. You need to extract triples corresponding to these relations from the given text and ensure they are presented in the {s_format} manner.",
+        "11": "Your role is to identify relation triples from this piece of text. The given reference of relations is: {s_schema}. Please use the {s_format} format in your reply.",
+        "12": "Please read the paragraph below carefully and extract possible relation triples according to the relation list: {s_schema}. Your output should match the {s_format} format.",
+        "13": "Use the relation list: {s_schema} as a guide to find all possible relation triples from the text, and ensure your answer is in the {s_format} format.",
+        "14": "In your task of relation extraction, please check the text and extract the corresponding triples according to the given relation types: {s_schema}. Use {s_format} to construct your answer.",
+        "15": "Please read the given material thoroughly and pick out the relation triples that fit the definitions in the relation list {s_schema}. Arrange your output in the {s_format} format.",
+        "16": "Considering your relation extraction capability, please use the relation list {s_schema} to guide you in finding the relevant triples from the text, and arrange your findings in the {s_format} format.",
+        "17": "In the provided text, look for possible relation triples and categorize them according to the relation list {s_schema}. Please submit your results following the {s_format} format.",
+        "18": "Go through this text and identify the triples according to our relation classification list {s_schema}. Ensure your answer format is consistent with {s_format}.",
+        "19": "Your task is to analyze the relation triples in the text and match them with the relation list {s_schema}. Strictly adhere to the {s_format} format specifications."
+    }
+}

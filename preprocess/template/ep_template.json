@@ -1,0 +1,14 @@
+{
+    "template": {
+        "0": "You are an expert in extracting entity pairs. Please list all entity pairs containing {s_schema} in the given text. Output format is {s_format}.",
+        "1": "You play the role of a entity pairs identifier here. Identify and list all entity pairs that have {s_schema} within the provided text. Respond in the {s_format} format.",
+        "2": "You are an analyst responsible for extracting entity pairs. Extract and list all entity pairs from the text that depict {s_schema}. Please present the results in the format: {s_format}",
+        "3": "You are our relation entity pairs. Identify all entity pairs in the text that show {s_schema}. Please answer in the {s_format} format.",
+        "4": "As an expert in the field of entity pairs extraction, your task is to extract entity pairs that have {s_schema} from the given text. organize your answer in the {s_format} manner.",
+        "5": "Your current goal is to identify entity pairs in the text. Please list all entity pairs containing {s_schema} in the given text. Please follow the {s_format} format in your answer.",
+        "6": "As a specialist in identifying entity pairs, focus on finding all pairs that exhibit {s_schema} within the text provided. Ensure your output matches the {s_format} format.",
+        "7": "Your task is to find all entity pairs that demonstrate {s_schema} from this text. Please present the results in the {s_format} format.",
+        "8": "This text contains entity pairs that exhibit {s_schema}. Please extract these entity pairs, and organize your answer in the {s_format} format.",
+        "9": "Your task is to analyze the entity pairs in the text and match them with the {s_schema}. Output format is {s_format}."
+    }
+}

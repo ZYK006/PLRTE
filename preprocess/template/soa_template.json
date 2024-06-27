@@ -1,0 +1,24 @@
+{
+    "template": {
+        "0": "Using outputs from Task 1 and Task 2, extract relation triples from text, format in {s_format}.",
+        "1": "Leverage Task 1 and Task 2 results to identify relation triples from input. Use {s_format} format for response.",
+        "2": "With Task 1 and Task 2 outputs, extract possible relation triples in the text. Respond in {s_format} format.",
+        "3": "Combined by Task 1 and 2 outputs, extract relation triples in the text. Format answer as {s_format} format.",
+        "4": "From Task 1 and 2's findings, identify relation triples in the text. Organize your response in {s_format} format.",
+        "5": "From text, Identify relation triples, combined by Task 1 and 2 outputs. Format answers as {s_format}.",
+        "6": "From text, identify relation triples using outcomes of Task 1 and 2. Format answer as {s_format}.",
+        "7": "Extract head, tail entities, and their relations using relation list {s_schema}, based on Task 1 and 2's outcomes. Format: {s_format}.",
+        "8": "Please extract relation triples from text, leverage Task 1 and 2 outputs. Answer in {s_format} format.",
+        "9": "Extract relation triples from text, using Task 1 and 2 results. Organize in {s_format} format.",
+        "10": "Extract triples using relation list {s_schema} from text, leveraging Task 1 and 2 outputs. Format in {s_format}.",
+        "11": "Apply results from Task 1 and Task 2, identify relation triples from this piece of text. Reply in {s_format} format.",
+        "12": "Combine Task 1 and 2 results, read below text and extract relation triples. Format as {s_format}.",
+        "13": "Leverage Task 1 and Task 2 results, find relation triples in text. Present in {s_format} format.",
+        "14": "Utilize Task 1 and 2 outcomes to identify relation triples in the text. Construct answers in {s_format}.",
+        "15": "With Task 1 and 2 results, Extract relation triples from text. Format: {s_format}.",
+        "16": "Incorporate Task 1 and Task 2 outcomes to pinpoint relation triples within the text. Responses should be in {s_format} format.",
+        "17": "Apply findings from Task 1 and Task 2 to extract relation triples from the text. Organize your response in {s_format} format.",
+        "18": "Combine Task 1 and 2 results to extract relation triples from the text. Answer in {s_format} format.",
+        "19": "Match relation triples in text , guided by Tasks 1 and 2 results. Use format {s_format}."
+    }
+}
