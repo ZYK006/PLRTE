@@ -35,12 +35,6 @@ bash ./transform_data.sh <input_base_path> <output_base_path> <schema_ep_path> <
 - **`<neg_schema>`**: A floating-point value between 0 and 1 indicating the proportion of the schema to be considered for negative sampling. <=0 means no negative samples.
 
 
-##### Example Command
-
-```bash
-bash ./transform_data.sh "./sample_data/DDI/process_train_abstract_sample300" "./sample_data/DDI/composite_data/train_abstract" "./sample_data/DDI/schema/schema_ep.json" "./sample_data/DDI/schema/schema_ner.json" "./sample_data/DDI/schema/schema.json"  1
-```
-
 ### Combine Data
 ```bash
 python preprocess/combine_data.py
