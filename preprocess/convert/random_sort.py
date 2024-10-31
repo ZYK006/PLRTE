@@ -38,7 +38,6 @@ def rel_sort(text, rels):
     rels_list = [it[0] for it in rels_list]
     return new_rels, rels_list
 
-
 def rf_sort(rels):
     rels_mapper = {}
     for rel in rels:
