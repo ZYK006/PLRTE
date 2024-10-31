@@ -19,10 +19,10 @@ class RFConverter:
         return ','.join(extracted_relations)
 
 
-    def convert(self, record, rand1, rand2, s_schema=""):
+    def convert(self, record, rand1, rand2, s_schema1="", s_schema2=""):
         output_template = self.relation_int_out_format[rand2]
         output_text = output_template[1](record)
-        sinstruct = self.relation_template[str(rand1)].format(s_format=output_template[0], s_schema=s_schema)
+        sinstruct = self.relation_template[str(rand1)].format(s_format=output_template[0], s_schema=s_schema2)
         return sinstruct, output_text
     
 
