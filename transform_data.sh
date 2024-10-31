@@ -2,12 +2,11 @@
 
 
 # Set default paths
-default_schema_path_ep="./sample_data/DDI/schema/schema_ep.json"
-default_schema_path_ner="./sample_data/DDI/schema/schema_ner.json"
-default_schema_path_rte="./sample_data/DDI/schema/schema.json"
-input_base_path="./sample_data/DDI/process_train_abstract_sample100"
-output_base_path="./sample_data/DDI/composite_data/train_abstract"
-
+default_schema_path_ep="/workspace/dataset/en_dataset/DDI/schema/schema_ep.json"
+default_schema_path_ner="/workspace/dataset/en_dataset/DDI/schema/schema_ner.json"
+default_schema_path_rte="/workspace/dataset/en_dataset/util/data_format/RE/schema.json"
+input_base_path="/workspace/dataset/en_dataset/DDI/format/filtered_train_abstract"
+output_base_path="/workspace/dataset/en_dataset/new_re2/ddi/train"
 
 # Accept parameters
 input_base_path=${1:-$input_base_path}
@@ -25,7 +24,8 @@ python preprocess/rte_to_ner_and_rf.py --input_json_file_path "${input_base_path
 python preprocess/transform_data.py \
   --src_path "${input_base_path}_ner.json" \
   --tgt_path "${output_base_path}_ner.json" \
-  --schema_path "$schema_path_ner" \
+  --schema_path1 "$schema_path_ner" \
+  --schema_path2 $schema_path_rte \
   --task NER \
   --neg_schema 1
 
@@ -33,7 +33,8 @@ python preprocess/transform_data.py \
 python preprocess/transform_data.py \
   --src_path ${input_base_path}_rf.json \
   --tgt_path ${output_base_path}_rf.json \
-  --schema_path $schema_path_rte \
+  --schema_path1 "$schema_path_ner" \
+  --schema_path2 $schema_path_rte \
   --task RF \
   --neg_schema $neg_schema
 
@@ -41,7 +42,8 @@ python preprocess/transform_data.py \
 python preprocess/transform_data.py \
   --src_path ${input_base_path}.json \
   --tgt_path ${output_base_path}_soa.json \
-  --schema_path $schema_path_rte \
+  --schema_path1 "$schema_path_ner" \
+  --schema_path2 $schema_path_rte \
   --task SOA \
   --neg_schema $neg_schema
 
@@ -49,7 +51,8 @@ python preprocess/transform_data.py \
 python preprocess/transform_data.py \
   --src_path ${input_base_path}.json \
   --tgt_path ${output_base_path}_rte.json \
-  --schema_path $schema_path_rte \
+  --schema_path1 "$schema_path_ner" \
+  --schema_path2 $schema_path_rte \
   --task RTE \
   --neg_schema $neg_schema
 
@@ -57,7 +60,8 @@ python preprocess/transform_data.py \
 python preprocess/transform_data.py \
   --src_path ${input_base_path}.json \
   --tgt_path ${output_base_path}_ep.json \
-  --schema_path $schema_path_ep \
+  --schema_path1 "$schema_path_ner" \
+  --schema_path2 $schema_path_ep \
   --task EP \
   --neg_schema $neg_schema
 
