@@ -33,3 +33,16 @@ pip install -r requirements.txt
 ```bash
 bash finetune.sh
 ```
+
+## Citation
+```bash
+@article{zheng2024plrte,
+  title={PLRTE: Progressive learning for biomedical relation triplet extraction using large language models},
+  author={Zheng, Yi-Kai and Zeng, Bi and Feng, Yi-Chun and Zhou, Lu and Li, Yi-Xue},
+  journal={Journal of Biomedical Informatics},
+  volume={159},
+  pages={104738},
+  year={2024},
+  publisher={Elsevier}
+}
+```
